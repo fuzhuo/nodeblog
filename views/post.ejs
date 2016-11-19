@@ -1,0 +1,46 @@
+<%- include header.ejs %>
+    <body>
+        <script>var duoshuoQuery = {short_name:"zfu"};</script>
+        <script src="http://static.duoshuo.com/embed.js"></script>
+        <script type="text/babel">
+            var filename=$('#main')[0].getAttribute('filename');
+            console.log("filename:" + filename);
+            $.getJSON('/api/post.json?filename='+filename, function(item){
+                console.log("get json ok status:"+item.status);
+                var txt = markdown.toHTML(item.content);
+                var html = `<div id="article">
+                        <dl class="linkedlist">
+                            <dt>
+                                <h2>${item.title}</h2>
+                            </dt>
+                            <dt class="dateline">
+                                <a class="dateline">发表于${item.date}</a>
+                            </dt>
+                            <dd>
+                                <div class="markdown">
+                                ${txt}
+                                </div>
+                            </dd>
+                        </dl>
+                    </div>`;
+                //console.log("html:"+html);
+                var div = document.createElement('div');
+                div.innerHTML = html;
+                main.appendChild(div);
+                console.log("good");
+                var el = document.createElement('div');
+                el.setAttribute('data-thread-key', document.baseURI);
+                el.setAttribute('data-url', document.baseURI);
+                el.setAttribute('data-author-key', 'zfu');
+                DUOSHUO.EmbedThread(el);
+                main.appendChild(el);
+            });
+        </script>
+        <div id="box">
+            <div id="banner">
+                <h1><a href="/">卓's BLOG</a></h1>
+            </div>
+            <%- include sidebar.ejs %>
+            <div id="main" filename="<%-filename%>">
+            </div>
+<%- include footer.ejs %>

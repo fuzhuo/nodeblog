@@ -1,0 +1,178 @@
+body {
+    background-color: #4a525a;
+    color: #fff;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    min-width: 760px;
+    font-family: "Sans-serif";
+    font-size: 13px;
+    display: block;
+}
+
+#box {
+    width: 720px;
+    height: auto;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#banner {
+    margin: 59px 12px 69px 41px;
+}
+
+#sidebar {
+    top: 160px;
+    margin: 0;
+    position: absolute;
+    text-align: right;
+    padding: 5px 0 0 0;
+    line-height: 1em;
+}
+
+#main {
+    padding: 0px;
+    width: 425px;
+    margin-right: 0px;
+    margin-left: 222px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    min-height: 600px;
+}
+
+#sidebar ul {
+    margin: 0 0 5em -4em;
+}
+
+#sidebar li {
+    list-style: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0 0 1em 0;
+    padding: 0;
+}
+
+#sidebar li a:visited {
+    color: #fff;
+}
+
+#sidebar a {
+    padding: 4px 1px 4px 1px;
+}
+
+#sidebar p {
+    padding: 0;
+    letter-spacing: 2px;
+    margin: 0 0 5em -3em;
+}
+
+ul {
+    list-style-type: square;
+}
+
+.linkedlist {
+    color: #eee;
+    border-width: 0 0 0px 0;
+    border-style: solid;
+    border-color: #666;
+    padding-bottom: 0em;
+}
+
+.linkedlist dt {
+    margin-bottom: 1em;
+    margin-top: 2em;
+    letter-spacing: .15em;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 1.05em;
+}
+
+.linkedlist dt a:vistied {
+    border-style: dotted;
+    border-color: #72767A;
+}
+
+.linkedlist dt a {
+    padding-top: 2px;
+    padding-bottom: 0px;
+    color: #ccc;
+}
+
+a:hover {
+    background-color: #606870;
+    border-color: #606870;
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #fff;
+}
+
+.linkedlist dd {
+    margin: auto auto 5em 0em;
+}
+
+dd {
+    display: block;
+    -webkit-margin-start: 40px;
+}
+
+.linkedlist p {
+    margin: 0 0 1.6em 0;
+}
+
+.linkedlist blockquote {
+    margin: 0 1em 0 0.25em;
+    padding: 0 .75em 0 1em;
+    border-left: 1px solid #777;
+    border-right: 0px solid #777;
+    color: #ddd;
+}
+
+blockquote {
+    font-size: 1em;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+dt.dateline {
+    font-size: 0.9em;
+    color: #aaa;
+    margin: 0em 0em 1.5em 0;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 1.1em;
+    text-align: left;
+    line-height: 1.8em;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+}
+
+#footer {
+    text-align: center;
+    color: #aaa;
+    margin-top: 6em;
+    margin-bottom: 2em;
+    line-height: 1.8em;
+}
+
+.markdown img {
+    width: 400px;
+}
+
+.ds-comment-body p {
+    color: white;
+}
+
+.ds-replybox textarea {
+    background-color: #4a525a;
+    color: white;
+}
