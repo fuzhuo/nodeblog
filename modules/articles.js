@@ -11,6 +11,7 @@ function articles(pg,pz=5, callback) {
         let i=0;
         files.forEach(function(filename){
             //console.log(filename);
+            if (filename.match(/\.md$/) != null) {
             var item = {};
             var data = fs.readFileSync('posts/'+filename, 'utf-8');
             var date = data.match(/Date: (.*)/)[1];
@@ -26,7 +27,9 @@ function articles(pg,pz=5, callback) {
             item['content']=content;
             //console.log(JSON.stringify(item));
             ans['content'].push(item);
+            }
         });
+        ans.content.sort((a,b) => {return a.date<b.date;});
         callback(ans);
     });
 }
