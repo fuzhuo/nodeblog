@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/droidfu
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://fuzhuo.me
+  * I am droidfu (https://keybase.io/droidfu) on keybase.
+  * I have a public key ASCd-jyxJRuOOfpeBSzN2bkdHQLai1AiiN3J9noS2WvAvwo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01209dfa3cb1251b8e39fa5e052ccdd9b91d1d02da8b502288ddc9f67a12d96bc0bf0a",
+            "host": "keybase.io",
+            "kid": "01209dfa3cb1251b8e39fa5e052ccdd9b91d1d02da8b502288ddc9f67a12d96bc0bf0a",
+            "uid": "8aabdde1e671a978b65fe02374957c19",
+            "username": "droidfu"
+        },
+        "service": {
+            "hostname": "fuzhuo.me",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.20"
+    },
+    "ctime": 1489137542,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1489137447,
+        "hash": "e92bb0666f19924226d773ced24d621ad53739e5e2af62730028482b9ae1d190b78f72c3b336be0d1aa047910c4c7e46f292f0c0040de95c26594677582ec2c4",
+        "seqno": 950389
+    },
+    "prev": "635303c7103aacaf0d46f16b4a23db00e5f68b391d12f78d0807d5051caf0708",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgnfo8sSUbjjn6XgUszdm5HR0C2otQIojdyfZ6EtlrwL8Kp3BheWxvYWTFAvB7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwOWRmYTNjYjEyNTFiOGUzOWZhNWUwNTJjY2RkOWI5MWQxZDAyZGE4YjUwMjI4OGRkYzlmNjdhMTJkOTZiYzBiZjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwOWRmYTNjYjEyNTFiOGUzOWZhNWUwNTJjY2RkOWI5MWQxZDAyZGE4YjUwMjI4OGRkYzlmNjdhMTJkOTZiYzBiZjBhIiwidWlkIjoiOGFhYmRkZTFlNjcxYTk3OGI2NWZlMDIzNzQ5NTdjMTkiLCJ1c2VybmFtZSI6ImRyb2lkZnUifSwic2VydmljZSI6eyJob3N0bmFtZSI6ImZ1emh1by5tZSIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjIwIn0sImN0aW1lIjoxNDg5MTM3NTQyLCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0ODkxMzc0NDcsImhhc2giOiJlOTJiYjA2NjZmMTk5MjQyMjZkNzczY2VkMjRkNjIxYWQ1MzczOWU1ZTJhZjYyNzMwMDI4NDgyYjlhZTFkMTkwYjc4ZjcyYzNiMzM2YmUwZDFhYTA0NzkxMGM0YzdlNDZmMjkyZjBjMDA0MGRlOTVjMjY1OTQ2Nzc1ODJlYzJjNCIsInNlcW5vIjo5NTAzODl9LCJwcmV2IjoiNjM1MzAzYzcxMDNhYWNhZjBkNDZmMTZiNGEyM2RiMDBlNWY2OGIzOTFkMTJmNzhkMDgwN2Q1MDUxY2FmMDcwOCIsInNlcW5vIjo5LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQFFcpoEOkRlRoveYPniIn+TLhQffcZjsw1cBeYjC1YAuYZf+8TBiB1cmR1H4bxeftfR8so/pVe8h9VQMPSsUkQWoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCAD5igK3OG73JkEy5mIjzx+gnvOVk90zNwKq+B3sLGj46N0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/droidfu
+
+==================================================================
+
